@@ -1,0 +1,4 @@
+hostAliases:
+- ip: "10.43.230.231"
+  hostnames:
+  - "rancher.localhost"

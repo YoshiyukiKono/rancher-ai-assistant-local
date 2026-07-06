@@ -1,0 +1,6 @@
+activeLlm: openai
+openaiLlmModel: gpt-4o
+openaiApiKey: "<DO_NOT_COMMIT>"
+insecureSkipTls: true
+log:
+  level: debug

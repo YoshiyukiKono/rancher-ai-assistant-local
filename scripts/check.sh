@@ -1,0 +1,4 @@
+#!/bin/bash
+kubectl get pods -A
+kubectl get settings.management.cattle.io server-url -o jsonpath='{.value}'
+echo

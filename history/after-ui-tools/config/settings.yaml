@@ -1,0 +1,2198 @@
+apiVersion: v1
+items:
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: rancher/rancher-agent:head
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: agent-image
+    resourceVersion: "1452"
+    uid: be6f2db5-3485-4e5e-90e7-4bc0f206041d
+  source: env
+  value: rancher/rancher-agent:v2.14.3
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: 300s
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: agent-rollout-timeout
+    resourceVersion: "1444"
+    uid: fb1cc654-35f4-4233-9961-751bec2437d7
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: strict
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: agent-tls-mode
+    resourceVersion: "1385"
+    uid: ffbfb369-bb48-4133-adb8-47b4a6927fb0
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: aks-operator-version
+    resourceVersion: "1405"
+    uid: 930501af-c10d-4403-a76c-8daab144e2c9
+  source: env
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "300"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: aks-refresh
+    resourceVersion: "1446"
+    uid: a687c546-58d3-47ce-a202-abcf38ddf3c9
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ali-operator-version
+    resourceVersion: "1314"
+    uid: 7e0e5957-bde1-4cb3-beb6-bbefa4225060
+  source: env
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "300"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: alibaba-refresh
+    resourceVersion: "1428"
+    uid: 96fdf375-82ed-47b6-8b2a-dc4c3350346d
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: api-host
+    resourceVersion: "1373"
+    uid: 671c825d-fdb3-4caf-88a3-1769541224da
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: 1.1.11
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: api-ui-version
+    resourceVersion: "1417"
+    uid: 7b550fcf-e6b1-4252-a755-57a82fb59398
+  source: env
+  value: 1.1.11
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: rancher/kube-api-auth:v0.13.0
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: auth-image
+    resourceVersion: "1456"
+    uid: e5702298-3bac-4e93-9286-c831045b2286
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: auth-password-requirements-description
+    resourceVersion: "1409"
+    uid: daf677e3-d8cb-48d0-9561-f695f21a47e0
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "129600"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: auth-token-max-ttl-minutes
+    resourceVersion: "1454"
+    uid: cd3a01f6-bbcf-4c9a-bde2-1e2ab765a8c1
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "3600"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: auth-user-info-max-age-seconds
+    resourceVersion: "1366"
+    uid: 30ecc2a2-6342-403e-8f9a-8ce8714f809c
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: 0 0 * * *
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: auth-user-info-resync-cron
+    resourceVersion: "1316"
+    uid: a841d1d0-f3f5-45f4-b4f2-fdc9d09ef821
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "960"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: auth-user-session-idle-ttl-minutes
+    resourceVersion: "1397"
+    uid: 661d79d0-383a-4862-b7f0-356bb894e3d4
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "960"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: auth-user-session-ttl-minutes
+    resourceVersion: "1352"
+    uid: 2b835aea-305d-41ee-bb08-79243b590a2f
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "10"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: authorization-cache-ttl-seconds
+    resourceVersion: "1332"
+    uid: 58ee6be4-b484-4e09-ba4d-02f5f536b976
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "10"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: authorization-deny-cache-ttl-seconds
+    resourceVersion: "1383"
+    uid: 09e87599-bc02-43b4-a553-b9fe17296488
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "10000"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: azure-group-cache-size
+    resourceVersion: "1356"
+    uid: 156ec9ca-1299-464b-bc0a-c1f56432e623
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: cacerts
+    resourceVersion: "1921"
+    uid: 157b1c78-219d-4aa0-b896-51960a143c73
+  source: ""
+  value: |-
+    -----BEGIN CERTIFICATE-----
+    MIIBvTCCAWOgAwIBAgIBADAKBggqhkjOPQQDAjBGMRwwGgYDVQQKExNkeW5hbWlj
+    bGlzdGVuZXItb3JnMSYwJAYDVQQDDB1keW5hbWljbGlzdGVuZXItY2FAMTc4MzMx
+    MzIzNjAeFw0yNjA3MDYwMzQ3MTZaFw0zNjA3MDMwMzQ3MTZaMEYxHDAaBgNVBAoT
+    E2R5bmFtaWNsaXN0ZW5lci1vcmcxJjAkBgNVBAMMHWR5bmFtaWNsaXN0ZW5lci1j
+    YUAxNzgzMzEzMjM2MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfc+l2PUJ1d2o
+    svQcrWRiJv6WB1PuCbR0imlOM5UqeLcTh2SlzbvsjxDijKfQilYiDe4ocPFVS3g1
+    OQ7XHp0wsqNCMEAwDgYDVR0PAQH/BAQDAgKkMA8GA1UdEwEB/wQFMAMBAf8wHQYD
+    VR0OBBYEFGkEosJXyYuvYNYpU78urvd74KzTMAoGCCqGSM49BAMCA0gAMEUCIF1n
+    IwaU0Sc2MKYBN1ldl7o30lkB4VMMye60UdvCmkh0AiEAwHNyUqqABxSsyWbw1Je8
+    4P3m0vKUyQqe0gf1NX5ReHU=
+    -----END CERTIFICATE-----
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: release-v2.14
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: chart-default-branch
+    resourceVersion: "1465"
+    uid: 5eb19dc7-1b26-4d96-9782-132c5323f553
+  source: env
+  value: release-v2.14
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://git.rancher.io/
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: chart-default-url
+    resourceVersion: "1467"
+    uid: 552d98f0-262e-4c95-b41c-2bb91082089b
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://releases.rancher.com/cli/v1.0.0-alpha8/rancher-darwin-amd64-v1.0.0-alpha8.tar.gz
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: cli-url-darwin
+    resourceVersion: "1402"
+    uid: 03cc1142-d339-4062-9ae9-211b153f10c9
+  source: env
+  value: https://releases.rancher.com/cli2/v2.14.3/rancher-darwin-amd64-v2.14.3.tar.gz
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://releases.rancher.com/cli/v1.0.0-alpha8/rancher-linux-amd64-v1.0.0-alpha8.tar.gz
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: cli-url-linux
+    resourceVersion: "1445"
+    uid: d62e5511-aea0-4b2d-a39e-9d9907e6e15d
+  source: env
+  value: https://releases.rancher.com/cli2/v2.14.3/rancher-linux-amd64-v2.14.3.tar.gz
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://releases.rancher.com/cli/v1.0.0-alpha8/rancher-windows-386-v1.0.0-alpha8.zip
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: cli-url-windows
+    resourceVersion: "1338"
+    uid: bad14331-12c7-47ac-a574-71635afffe49
+  source: env
+  value: https://releases.rancher.com/cli2/v2.14.3/rancher-windows-386-v2.14.3.zip
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: cli-version
+    resourceVersion: "1310"
+    uid: d69ca262-0c5b-4e3e-815d-1f2f0e041a0c
+  source: env
+  value: v2.14.3
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: |-
+    {
+      "nodeAffinity": {
+        "requiredDuringSchedulingIgnoredDuringExecution": {
+          "nodeSelectorTerms": [
+            {
+              "matchExpressions": [
+                {
+                  "key": "kubernetes.io/os",
+                  "operator": "NotIn",
+                  "values": [
+                    "windows"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "preferredDuringSchedulingIgnoredDuringExecution": [
+          {
+            "weight": 100,
+            "preference": {
+              "matchExpressions": [
+                {
+                  "key": "node-role.kubernetes.io/controlplane",
+                  "operator": "In",
+                  "values": [
+                    "true"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "weight": 100,
+            "preference": {
+              "matchExpressions": [
+                {
+                  "key": "node-role.kubernetes.io/control-plane",
+                  "operator": "In",
+                  "values": [
+                    "true"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "preference": {
+              "matchExpressions": [
+                {
+                  "key": "cattle.io/cluster-agent",
+                  "operator": "In",
+                  "values": [
+                    "true"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "podAntiAffinity": {
+        "preferredDuringSchedulingIgnoredDuringExecution": [
+          {
+            "weight": 100,
+            "podAffinityTerm": {
+              "labelSelector": {
+                "matchExpressions": [
+                  {
+                    "key": "app",
+                    "operator": "In",
+                    "values": [
+                      "cattle-cluster-agent"
+                    ]
+                  }
+                ]
+              },
+              "topologyKey": "kubernetes.io/hostname"
+            }
+          }
+        ]
+      }
+    }
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: cluster-agent-default-affinity
+    resourceVersion: "1378"
+    uid: 2d2f6f1a-8686-4643-b90d-e2f1fea9e0fb
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "{\n\t\"minAvailable\": \"1\",\n\t\"maxUnavailable\": \"0\"\n}"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: cluster-agent-default-pod-disruption-budget
+    resourceVersion: "1346"
+    uid: f90658fb-7169-4218-88f1-86e8737c65f4
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: |-
+    {
+        "preemptionPolicy": "PreemptLowerPriority",
+        "value": 1000000000
+    }
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: cluster-agent-default-priority-class
+    resourceVersion: "1461"
+    uid: b4ae8db8-56d3-4cd5-a3d4-2aa7448ec234
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: oci://registry.rancher.com/rancher/charts/appco-kubernetes-cluster-autoscaler
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: cluster-autoscaler-chart-repository
+    resourceVersion: "6764"
+    uid: 1c52a1b2-6b08-4529-813d-3f3027e4e773
+  source: env
+  value: oci://registry.rancher.com/rancher/charts/appco-kubernetes-cluster-autoscaler
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: registry.rancher.com/rancher/appco-kubernetes-cluster-autoscaler
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: cluster-autoscaler-image
+    resourceVersion: "6765"
+    uid: 2e217b7d-e980-4dae-98f8-8afa943fa4ee
+  source: env
+  value: registry.rancher.com/rancher/appco-kubernetes-cluster-autoscaler
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "50"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: cluster-controller-start-count
+    resourceVersion: "1315"
+    uid: d7a1e5ee-f4a1-4d81-9aba-df81b0934506
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "false"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: cluster-template-enforcement
+    resourceVersion: "1328"
+    uid: 3d10308d-4367-47f1-a575-3cb07f48e13d
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: rancher-config
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: config-map-name
+    resourceVersion: "1326"
+    uid: 048a27e1-82bb-434d-8f5e-7affb197d9c4
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://acs-mirror.azureedge.net/csi-proxy/%[1]s/binaries/csi-proxy-%[1]s.tar.gz
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: csi-proxy-agent-url
+    resourceVersion: "1431"
+    uid: 574734d4-1d44-471e-920d-80256491e906
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: csi-proxy-agent-version
+    resourceVersion: "1299"
+    uid: 77ca8b19-0ddc-4308-b904-f5bf0f5efd14
+  source: env
+  value: v1.1.3
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: csp-adapter-min-version
+    resourceVersion: "1448"
+    uid: c254b73c-9da2-4c0c-b6fe-999d80afc33c
+  source: env
+  value: 109.0.0+up9.0.0
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: delete-inactive-user-after
+    resourceVersion: "1389"
+    uid: 5e535d79-5088-40d9-acba-d73419f87e5f
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: 0s
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: delete-machine-on-failure-after
+    resourceVersion: "1359"
+    uid: 29015cc9-a5bd-4582-b594-c77b83f01c16
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: disable-default-proxy-endpoints
+    resourceVersion: "1331"
+    uid: a140bf52-0076-4b7f-ae7f-3374a45b8fb6
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: disable-inactive-user-after
+    resourceVersion: "1418"
+    uid: 44af8817-8696-475f-8560-bb7a2adbbfd2
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: display-add-extension-repos-banner
+    resourceVersion: "3959"
+    uid: 724cd264-8d24-4a2c-b3fa-20c6b13ede89
+  source: ""
+  value: "false"
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: eks-operator-version
+    resourceVersion: "1455"
+    uid: 94f51db2-69f1-4627-a3df-2990b61e4a84
+  source: env
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "300"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: eks-refresh
+    resourceVersion: "1350"
+    uid: 4a3f0628-1b00-4900-9494-19f4f026fe30
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: '*/5 * * * *'
+  kind: Setting
+  metadata:
+    annotations:
+      settings.management.cattle.io/migrated: "true"
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: eks-refresh-cron
+    resourceVersion: "1898"
+    uid: fe82af7a-f018-4755-a85b-279df9f6b9a3
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://releases.rancher.com/install-docker/28.1.sh
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: engine-install-url
+    resourceVersion: "1302"
+    uid: 53005cbb-0751-40ec-9b1f-7e183a87b975
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://releases.rancher.com/os/latest/rancheros-vmware.iso
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: engine-iso-url
+    resourceVersion: "1393"
+    uid: a6256a0c-6be4-4cdb-9b5e-4be8adb57650
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: v17.12.0
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: engine-newest-version
+    resourceVersion: "1436"
+    uid: 149a4278-99ee-4ce8-98a4-a8f153b5fc53
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ~v1.11.2 || ~v1.12.0 || ~v1.13.0 || ~v17.03.0 || ~v17.06.0 || ~v17.09.0
+    || ~v18.06.0 || ~v18.09.0 || ~v19.03.0 || ~v20.10.0 || ~v23.0.0 || ~v24.0.0 ||
+    ~v25.0.0 || ~v26.0.0 || ~v26.1.0|| ~v27.0.0|| ~v27.1.0|| ~v27.2.0|| ~v27.3.0||
+    ~v27.4.0|| ~v27.5.0|| ~v28.0.0|| ~v28.1.0
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: engine-supported-range
+    resourceVersion: "1437"
+    uid: 46ef6595-1520-48db-a65e-2afca24807c4
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: eula-agreed
+    resourceVersion: "2834"
+    uid: 689223a5-cff1-4665-a330-1369ad9323f0
+  source: ""
+  value: "2026-07-06T04:48:58.244Z"
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: 720h
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: expire-scim-tokens-after
+    resourceVersion: "1375"
+    uid: 45632633-dc8b-4567-b7b1-33a7ea4e4cdf
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "true"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: first-login
+    resourceVersion: "2833"
+    uid: e88276a3-df99-47c1-b1a1-c4a5fd4230d2
+  source: ""
+  value: "false"
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: |-
+    {
+      "nodeAffinity": {
+        "preferredDuringSchedulingIgnoredDuringExecution": [
+          {
+            "weight": 1,
+            "preference": {
+              "matchExpressions": [
+                {
+                  "key": "fleet.cattle.io/agent",
+                  "operator": "In",
+                  "values": [
+                    "true"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: fleet-agent-default-affinity
+    resourceVersion: "1413"
+    uid: 03ab5aa2-7c53-4522-af7f-523f1883cf98
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "{\n\t\"minAvailable\": \"1\",\n\t\"maxUnavailable\": \"0\"\n}"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: fleet-agent-default-pod-disruption-budget
+    resourceVersion: "1358"
+    uid: 87331f4f-667e-41d9-abe1-31810d8b249d
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: |-
+    {
+        "preemptionPolicy": "PreemptLowerPriority",
+        "value":  999999999
+    }
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: fleet-agent-default-priority-class
+    resourceVersion: "1347"
+    uid: 06039ee0-61ca-4eed-9cfb-90571914da5a
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: fleet-default
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: fleet-default-workspace-name
+    resourceVersion: "1453"
+    uid: fa3ae7d6-1e26-4eea-8bba-c92e24ee51f9
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: fleet-min-version
+    resourceVersion: "1340"
+    uid: 6e0bf61b-1879-4466-bd73-fd16766f4dbd
+  source: env
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: fleet-version
+    resourceVersion: "1379"
+    uid: cbf2b152-e5c9-4cb5-9df3-5edd4f57480b
+  source: env
+  value: 109.0.4+up0.15.4
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://api.github.com
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: github-proxy-api-url
+    resourceVersion: "1403"
+    uid: 8d80b5bf-d482-47ff-a262-32ca1a4ef173
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: gke-operator-version
+    resourceVersion: "1341"
+    uid: 99c02df3-c53c-4a97-b538-13327e06b721
+  source: env
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "300"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: gke-refresh
+    resourceVersion: "1447"
+    uid: 05a0624a-b33f-4978-aecb-e0d179f9c013
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "false"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: global-registry-enabled
+    resourceVersion: "1371"
+    uid: 5f7704b4-96da-4e4d-82f0-9d6f92c28587
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: has-support
+    resourceVersion: "1370"
+    uid: 1d8ab67f-ef10-4f70-ae37-6b0cd6589b86
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "10"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: helm-max-history
+    resourceVersion: "1334"
+    uid: f8fdee5d-c241-4d6c-8f5e-b0a6303d4ddb
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: dev
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: helm-version
+    resourceVersion: "1343"
+    uid: ea946da1-ed07-4ee7-898d-24403ebb1638
+  source: env
+  value: v3.20.0-rancher1
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "false"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: hide-local-cluster
+    resourceVersion: "1351"
+    uid: 483141b2-d2a8-48ee-9038-8eec7fbc0a0a
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ignore-node-name
+    resourceVersion: "1439"
+    uid: e38c509b-2685-463d-b414-a18ab0a96654
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "true"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: imported-cluster-version-management
+    resourceVersion: "1322"
+    uid: f979ff7a-fb03-423c-aa9a-5f68fdf1828e
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: sslip.io
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ingress-ip-domain
+    resourceVersion: "1339"
+    uid: 13288f4f-8bea-4c9e-9814-714b7efa03c7
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: /var/lib/docker
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: initial-docker-root-dir
+    resourceVersion: "1357"
+    uid: 34a37776-e219-404c-8d77-e30437c6fc24
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: install-uuid
+    resourceVersion: "1551"
+    uid: 11ae5180-2106-4707-84dc-f4e751366bdd
+  source: ""
+  value: 8b096558-acf9-4854-9da2-d392f8fccbc5
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: internal-cacerts
+    resourceVersion: "1941"
+    uid: 52612031-4cc3-42f9-b9aa-37a01acdee97
+  source: ""
+  value: |
+    -----BEGIN CERTIFICATE-----
+    MIIBvTCCAWOgAwIBAgIBADAKBggqhkjOPQQDAjBGMRwwGgYDVQQKExNkeW5hbWlj
+    bGlzdGVuZXItb3JnMSYwJAYDVQQDDB1keW5hbWljbGlzdGVuZXItY2FAMTc4MzMx
+    MzIzNjAeFw0yNjA3MDYwMzQ3MTZaFw0zNjA3MDMwMzQ3MTZaMEYxHDAaBgNVBAoT
+    E2R5bmFtaWNsaXN0ZW5lci1vcmcxJjAkBgNVBAMMHWR5bmFtaWNsaXN0ZW5lci1j
+    YUAxNzgzMzEzMjM2MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGse3huLwL6xu
+    kRDc8yDVRUn73PXxgNnsHZoDtVzv0Gi0OawNasB0vmCN0nZUR95X8MY5fCmuFW2W
+    mVjq0DqtA6NCMEAwDgYDVR0PAQH/BAQDAgKkMA8GA1UdEwEB/wQFMAMBAf8wHQYD
+    VR0OBBYEFAwwVwIVD0RdM5CIRGND+3ETTPF0MAoGCCqGSM49BAMCA0gAMEUCIF4K
+    Y0qu5zMUOk2p5yLSYbAOtE/1XbJ83HrdQPinnlazAiEAujbkz8sORqm3ONTPIAbU
+    DFgLks4q8zjrfTvPt6Viyao=
+    -----END CERTIFICATE-----
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 3
+    name: internal-server-url
+    resourceVersion: "6872"
+    uid: 86bd3ff5-72a9-4aed-888d-c71d7253e8c2
+  source: ""
+  value: https://10.43.14.35
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "60"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: jailer-timeout
+    resourceVersion: "1430"
+    uid: 4d705fca-f694-4213-bf31-90f487ecabfc
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "5"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: k3s-based-upgrader-uninstall-concurrency
+    resourceVersion: "1368"
+    uid: 48b23794-6836-4606-af8c-10e9877da153
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: k3s-default-version
+    resourceVersion: "1655"
+    uid: de0fe785-3dc9-4a68-8a72-4bb63d84cb80
+  source: ""
+  value: 1.35.6+k3s1
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: k8s-version
+    resourceVersion: "1323"
+    uid: 34a7ceae-ea75-4874-82dc-8a1216333e47
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: k8s-version-to-images
+    resourceVersion: "1363"
+    uid: 50a8fc9a-6b8c-4510-b18d-a891086e8952
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: k8s-version-to-service-options
+    resourceVersion: "1410"
+    uid: d67fd7a2-1fb2-40da-9ebb-54e9b089a317
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: k8s-versions-current
+    resourceVersion: "1298"
+    uid: 7e8978f6-3e59-4323-b16c-0878eb2d6185
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: k8s-versions-deprecated
+    resourceVersion: "1364"
+    uid: 50c3d58c-1d03-40c8-a8cb-a7c855b7d220
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: release-v2.14
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: kdm-branch
+    resourceVersion: "1438"
+    uid: da45ebd8-e607-4a52-885c-df03424a13c9
+  source: env
+  value: release-v2.14
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: '{}'
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: kev2-operators
+    resourceVersion: "1587"
+    uid: 96c2e8d6-888c-4b9a-8e60-ac0125b2fc30
+  source: ""
+  value: '[{"name":"aks","active":true},{"name":"alibaba","active":false},{"name":"eks","active":true},{"name":"gke","active":true}]'
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "43200"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: kubeconfig-default-token-ttl-minutes
+    resourceVersion: "1390"
+    uid: 13174932-9488-4f05-a0d4-3f316f937c93
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "true"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: kubeconfig-generate-token
+    resourceVersion: "1329"
+    uid: 9060d9e6-3d23-41f1-81c4-e7b0d93c47dc
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: rancher/machine:v0.15.0-rancher142.2
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: machine-provision-image
+    resourceVersion: "1388"
+    uid: 54f4ae12-28b6-4a72-9257-dc3063c88093
+  source: env
+  value: rancher/machine:v0.15.0-rancher142.2
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: Always
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: machine-provision-image-pull-policy
+    resourceVersion: "1372"
+    uid: f100fcce-7c9f-43bb-862e-25d1ac70122b
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: dev
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: machine-version
+    resourceVersion: "1457"
+    uid: 961f62fd-9a64-49e6-8002-e9c5fb9d06f3
+  source: env
+  value: v0.15.0-rancher142.2
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "31457280"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: max-ui-plugin-file-byte-size
+    resourceVersion: "1313"
+    uid: 2b6bb4fc-deb7-4c87-959d-d7596db12f86
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: cattle-system
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: namespace
+    resourceVersion: "1458"
+    uid: a855d423-e940-4fdd-8c30-58f3c097692c
+  source: env
+  value: cattle-system
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: no-default-admin
+    resourceVersion: "1387"
+    uid: 302c7cfa-01c8-40ab-80fd-75d7c06e5192
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: main
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: partner-chart-default-branch
+    resourceVersion: "1367"
+    uid: 5bc774d6-5613-4100-954f-32006112cc51
+  source: env
+  value: main
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://git.rancher.io/
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: partner-chart-default-url
+    resourceVersion: "1398"
+    uid: e4711c82-d5c6-43df-a000-5fdb61120243
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "12"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: password-min-length
+    resourceVersion: "1426"
+    uid: 5f883175-e68f-48bc-a07d-23f2bb5b1684
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: rancher
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: peer-service
+    resourceVersion: "1327"
+    uid: a45a4d54-1df5-4f91-b3e4-300c4736281d
+  source: env
+  value: rancher
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: 1Mi
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: public-api-body-limit
+    resourceVersion: "1362"
+    uid: fb310c86-1403-477f-be0c-18c1a47abc31
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: rancher-turtles-version
+    resourceVersion: "1337"
+    uid: 541cf8c0-cf0c-4f47-bae7-60ae22fc22a4
+  source: env
+  value: 109.0.3+up0.26.3
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: rancher-webhook-version
+    resourceVersion: "1308"
+    uid: 41da4262-bedb-43a3-9181-711d170c94f6
+  source: env
+  value: 109.0.3+up0.10.7
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: remotedialer-proxy-version
+    resourceVersion: "1342"
+    uid: 738d15f8-8398-4375-a56e-c827cfea3481
+  source: env
+  value: 109.0.4+up0.7.4
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: '{"refresh-interval-minutes":"1440","url":"https://releases.rancher.com/kontainer-driver-metadata/release-v2.14/data.json"}'
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: rke-metadata-config
+    resourceVersion: "1415"
+    uid: b9a79e14-f30f-4b5c-8aa7-64460e8bc6de
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: main
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: rke2-chart-default-branch
+    resourceVersion: "1408"
+    uid: e70abe61-b49f-44b0-bc9a-31c1ff3002d1
+  source: env
+  value: main
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://git.rancher.io/
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: rke2-chart-default-url
+    resourceVersion: "1406"
+    uid: 06998fb6-953e-4f63-9fbd-11429586338f
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: rke2-default-version
+    resourceVersion: "1650"
+    uid: 4fa11352-d17a-4293-94eb-04e35a95fbdd
+  source: ""
+  value: 1.35.6+rke2r1
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "7"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: rotate-certs-if-expiring-in-days
+    resourceVersion: "1432"
+    uid: 06586038-7384-403a-9a8d-85641f326435
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: 30s
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: s3-bucket-check-timeout
+    resourceVersion: "1380"
+    uid: 1c6e9232-3cbe-41e9-a769-9206dfcc6d9c
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: rancher/scc-operator:v0.4.3
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: scc-operator-image
+    resourceVersion: "1307"
+    uid: 4c7fc80a-f46b-42c8-a53f-a91702ba540f
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: rancher/rancher
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: server-image
+    resourceVersion: "6766"
+    uid: 7660c242-5754-4cf8-b81e-872891485861
+  source: env
+  value: rancher/rancher/rancher:v2.14.3
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 3
+    name: server-url
+    resourceVersion: "15186"
+    uid: f7f95c6b-529b-47b3-81c9-2a29bbc8a930
+  source: ""
+  value: https://rancher.cattle-system.svc
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: dev
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: server-version
+    resourceVersion: "1333"
+    uid: 8bdc1d44-b074-4c58-8fa1-81918438d794
+  source: env
+  value: v2.14.3
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: prime
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: server-version-type
+    resourceVersion: "6763"
+    uid: 7c361f49-eca8-436a-b029-352d29e5b88b
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: rancher/shell:v0.7.1
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: shell-image
+    resourceVersion: "1466"
+    uid: 066f8461-f461-4e31-bb11-9d854b30c8a9
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "true"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: skip-helm-index-filtering
+    resourceVersion: "1330"
+    uid: 0cd74b29-54a5-4cf3-94a6-9d2582a3b69e
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: skip-hosted-cluster-chart-installation
+    resourceVersion: "1443"
+    uid: 7334eef4-30a7-418d-96e1-fa45f4c1805e
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: 15m
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: sql-cache-gc-interval
+    resourceVersion: "1374"
+    uid: a80eefa5-4eb5-4ee3-9627-aab9bbc0f354
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "1000"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: sql-cache-gc-keep-count
+    resourceVersion: "1382"
+    uid: 68345947-ce58-4886-9fa6-d4adeb8df370
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://github.com/rancher/system-agent/releases/download/v0.14.0/install.sh
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-agent-install-script
+    resourceVersion: "1300"
+    uid: 1c697381-d0ce-43bb-b3f9-5b4d7666466e
+  source: env
+  value: https://github.com/rancher/system-agent/releases/download/v0.14.0/install.sh
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-agent-installer-image
+    resourceVersion: "1422"
+    uid: 73747a3d-c1bd-4138-a20e-169a60b0f99a
+  source: env
+  value: rancher/system-agent-installer-
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-agent-upgrade-image
+    resourceVersion: "1464"
+    uid: e28fcbf2-56cb-49d4-8cfd-7d2fe434a426
+  source: env
+  value: rancher/system-agent:v0.14.0-suc
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "5"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-agent-upgrader-install-concurrency
+    resourceVersion: "1433"
+    uid: cff7f620-04db-4b2c-899c-38fb89ee4a8e
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-agent-version
+    resourceVersion: "1427"
+    uid: 8935774f-5972-47a1-82b5-ee3a13290415
+  source: env
+  value: v0.14.0
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: external
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-catalog
+    resourceVersion: "1377"
+    uid: c7dfb411-6013-49ed-81db-0ab7a35cc589
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: registry.rancher.com
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: system-default-registry
+    resourceVersion: "6768"
+    uid: ceacbf89-c25b-4f9b-b9c1-198cce6d220b
+  source: env
+  value: registry.rancher.com
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "21600"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-feature-chart-refresh-seconds
+    resourceVersion: "1365"
+    uid: 16972467-8c98-46c5-b106-9fb2cd935ace
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: 300s
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-managed-charts-operation-timeout
+    resourceVersion: "1312"
+    uid: 41822aee-7770-40c8-a301-1b8e36a244c1
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: kube-system,kube-public,cattle-system,cattle-alerting,cattle-logging,cattle-prometheus,ingress-nginx,cattle-global-data,cattle-istio,kube-node-lease,cert-manager,cattle-global-nt,security-scan,cattle-fleet-system,cattle-fleet-local-system,calico-system,tigera-operator,cattle-impersonation-system,rancher-operator-system,cattle-csp-adapter-system,calico-apiserver,cattle-elemental-system,cattle-scc-system,cattle-telemetry-system,cattle-local-user-passwords,cattle-tokens,cattle-oidc-codes,cattle-oidc-client-secrets
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-namespaces
+    resourceVersion: "1311"
+    uid: d5e5db64-b70b-4599-a8bf-8e576f1ba6ec
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: system-upgrade-controller-chart-version
+    resourceVersion: "1412"
+    uid: dfcc86a0-0bc3-45b3-bf8c-24cf23f1bfb9
+  source: env
+  value: 109.0.2
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: tls-ciphers
+    resourceVersion: "1376"
+    uid: 3da2a33b-344c-419e-95dc-9229fd661c1c
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "1.2"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: tls-min-version
+    resourceVersion: "1460"
+    uid: baeeaec9-0cc4-4da4-a15f-f5ae649fad52
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-banner-dark
+    resourceVersion: "1391"
+    uid: 63070835-e947-4bcf-8fa1-9c30387249d3
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-banner-footer
+    resourceVersion: "1321"
+    uid: f6120700-5147-43b4-a89b-77b663d97c76
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-banner-header
+    resourceVersion: "1442"
+    uid: 92b2d1e8-bea3-49f9-8dc0-bdc0bdf43f29
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-banner-light
+    resourceVersion: "1320"
+    uid: e367cf3c-cd4d-4d1f-a56c-d3b3e92f3b1e
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-banner-login-consent
+    resourceVersion: "1360"
+    uid: 01ca0cc6-6ec9-4903-96e8-c6de7f2fa5e0
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: '{}'
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-banners
+    resourceVersion: "1414"
+    uid: 1ef28ad5-a5b4-4805-89ab-dfc08987a49a
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: suse
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: ui-brand
+    resourceVersion: "6767"
+    uid: b5f13444-ad98-4cba-bd33-5d2bf40b547f
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "true"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-community-links
+    resourceVersion: "1301"
+    uid: 6326f5f2-66bd-44fc-9be0-6ac7a89d4980
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "true"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-content-enabled
+    resourceVersion: "1349"
+    uid: 1f2a5350-adcd-44f5-89ce-0da43a29ca7d
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-content-endpoint
+    resourceVersion: "1420"
+    uid: 10165042-f3eb-497b-a22c-bfb3725134f9
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-custom-links
+    resourceVersion: "1381"
+    uid: e2304e01-2fa6-43eb-b793-287081ef9155
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://releases.rancher.com/harvester-ui/plugin/harvester-1.0.3-head/harvester-1.0.3-head.umd.min.js
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-dashboard-harvester-legacy-plugin
+    resourceVersion: "1309"
+    uid: 7792d459-e962-4e15-b692-95d5b9cd4e09
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://releases.rancher.com/dashboard/release-2.14/index.html
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-dashboard-index
+    resourceVersion: "1306"
+    uid: 9bfdf93e-5360-4363-9267-4b7b8dda1d74
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: /usr/share/rancher/ui-dashboard
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-dashboard-path
+    resourceVersion: "1429"
+    uid: b84cc2dc-afc7-4117-8f96-61d7e47200d1
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: vue
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-default-landing
+    resourceVersion: "1434"
+    uid: 87f89134-da94-4b8b-a9c1-a05dd8ef2c33
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-extensions
+    resourceVersion: "1419"
+    uid: 8b70e31c-f238-4aa8-99b4-6d7fb980881c
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-favicon
+    resourceVersion: "1384"
+    uid: c856a882-519d-424e-bd08-5cb6c351f9ac
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-feedback-form
+    resourceVersion: "1449"
+    uid: 0f628a1d-59b3-405d-b7c3-be77d5ed2a35
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://releases.rancher.com/ui/release-2.14/index.html
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-index
+    resourceVersion: "1318"
+    uid: aa508fc7-f8b8-47e7-9100-e1339949cbd7
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-issues
+    resourceVersion: "1354"
+    uid: 86ba899c-d974-4bde-a690-f17db1b76f6f
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: <=1.14.x
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-k8s-default-version-range
+    resourceVersion: "1435"
+    uid: 0d3bf916-e980-428d-ba73-c30a82e727b4
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: '>= 1.11.0 <=1.14.x'
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 2
+    name: ui-k8s-supported-versions-range
+    resourceVersion: "1660"
+    uid: d8fdadfa-aa02-4f1e-9a45-d2f326da2702
+  source: ""
+  value: '>=v1.33.x <=v1.35.x'
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-link-color
+    resourceVersion: "1451"
+    uid: ad7a25e2-f59f-4e22-b12a-15928241f731
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-login-background-dark
+    resourceVersion: "1401"
+    uid: d8139f93-5fe2-46f2-8246-db8d25b8771e
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-login-background-light
+    resourceVersion: "1400"
+    uid: e7f525c2-b1e9-44df-91d7-9faccd5ea730
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-logo-dark
+    resourceVersion: "1369"
+    uid: 14cbab5b-adb6-49eb-b44e-9135a7ec2b8b
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-logo-light
+    resourceVersion: "1463"
+    uid: 95aeaac1-2c98-425f-ae69-7c4bbe831888
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: dynamic
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-offline-preferred
+    resourceVersion: "1450"
+    uid: 020e580f-b0ed-4d61-9be3-d281e2d32d58
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: /usr/share/rancher/ui
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-path
+    resourceVersion: "1355"
+    uid: 8320dc22-d075-4089-a24b-1ed2af21f604
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-performance
+    resourceVersion: "1319"
+    uid: b085e432-ed1a-4f25-880a-c8f73fa170a7
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: rancher
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-pl
+    resourceVersion: "1348"
+    uid: 83491a13-1ce7-4166-ac48-d4c7365252ef
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: vue
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-preferred
+    resourceVersion: "1425"
+    uid: 210f7445-dff6-44ff-8f3e-2214107399c8
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-primary-color
+    resourceVersion: "1441"
+    uid: d061f927-1cb4-4bf7-81f9-7df8c8d7b9bc
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: ui-theme
+    resourceVersion: "1396"
+    uid: d90e287a-05bc-4eaf-94b9-cfaf5518dd44
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "true"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: unprivileged-jail-user
+    resourceVersion: "1361"
+    uid: c9fd9221-f139-451f-a01b-9d81892aa183
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: user-last-login-default
+    resourceVersion: "1423"
+    uid: 1f79d29a-3d0b-407a-a245-db9e7ff63a97
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: user-retention-cron
+    resourceVersion: "1325"
+    uid: e92a9b18-19cd-4dc7-bbcb-f4037a6ab329
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: "false"
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: user-retention-dry-run
+    resourceVersion: "1324"
+    uid: 50f3c558-6271-4e81-9517-feec777c9812
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: forums.rancher.com
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: whitelist-domain
+    resourceVersion: "1345"
+    uid: 76cc31e8-a491-4fd9-9427-47858d1126bf
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: HTTP_PROXY,HTTPS_PROXY,NO_PROXY
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: whitelist-envvars
+    resourceVersion: "1335"
+    uid: f04d27d5-fe78-4a9e-9c62-2da0d91e87c7
+  source: ""
+  value: ""
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: https://raw.githubusercontent.com/rancher/wins/v0.5.5/install.ps1
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: wins-agent-install-script
+    resourceVersion: "1344"
+    uid: 31e38b64-9f10-43d1-b276-4de3504df653
+  source: env
+  value: https://raw.githubusercontent.com/rancher/wins/v0.5.5/install.ps1
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: wins-agent-upgrade-image
+    resourceVersion: "1411"
+    uid: fa33ec31-650c-4103-88d8-ed58a3e4c150
+  source: env
+  value: rancher/wins:v0.5.5
+- apiVersion: management.cattle.io/v3
+  customized: false
+  default: ""
+  kind: Setting
+  metadata:
+    creationTimestamp: "2026-07-06T04:47:09Z"
+    generation: 1
+    name: wins-agent-version
+    resourceVersion: "1386"
+    uid: 7d29f0e1-3489-431d-b787-e961dadf490b
+  source: env
+  value: v0.5.5
+kind: List
+metadata:
+  resourceVersion: ""

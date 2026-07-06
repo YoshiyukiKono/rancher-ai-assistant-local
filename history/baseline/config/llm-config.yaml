@@ -1,0 +1,19 @@
+apiVersion: v1
+data:
+  ACTIVE_LLM: openai
+  BEDROCK_MODEL: ""
+  GEMINI_MODEL: ""
+  OLLAMA_MODEL: ""
+  OPENAI_MODEL: gpt-4o
+kind: ConfigMap
+metadata:
+  annotations:
+    meta.helm.sh/release-name: rancher-ai-agent
+    meta.helm.sh/release-namespace: cattle-ai-agent-system
+  creationTimestamp: "2026-07-06T06:30:25Z"
+  labels:
+    app.kubernetes.io/managed-by: Helm
+  name: llm-config
+  namespace: cattle-ai-agent-system
+  resourceVersion: "30389"
+  uid: be75f869-760e-4950-a791-8c90ee51b1f3

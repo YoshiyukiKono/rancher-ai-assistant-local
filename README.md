@@ -21,7 +21,7 @@ Rancher Prime + Rancher AI Assistant + MCP Server をローカル環境で構築
 - Kubernetes 上の AI Agent / MCP の構成を理解したい人
 - ローカル環境で製品機能を再現しながら学びたい人
 
-## 推奨環境
+## 検証環境
 
 - macOS
 - Rancher Desktop
@@ -66,4 +66,4 @@ Kubernetes Cluster
 
 ## 注意
 
-APIキーやREGCODEをGitへコミットしないでください。
+APIキーやREGCODEをGitへコミットしない。
